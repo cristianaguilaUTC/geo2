@@ -6,7 +6,7 @@
     <div class="col-md-8">
         <form action="{{ route('predios.store')}}" method="POST">
             @csrf
-            <h3><b>Registrar Nuevo Predio</b></h3>
+            <h3><b>REGISTRAR NUEVO PREDIO</b></h3>
             <hr>
             <label for=""><b>Propietario:</b> </label> <br>
             <input type="text" name="propietario"
