@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 use App\Http\Controllers\ClienteController;
-
 use App\Http\Controllers\PredioController;
+use App\Http\Controllers\AlarmaController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -18,3 +17,6 @@ Route::resource("clientes",ClienteController::class);
 
 //habilitando el acceso a los recursos del controlador predios
 Route::resource("predios",PredioController::class);
+
+
+Route::resource('alarmas',AlarmaController::class);

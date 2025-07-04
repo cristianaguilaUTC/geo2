@@ -20,6 +20,7 @@ class AlarmaController extends Controller
     public function create()
     {
         //
+        return view('alarmas.nuevo');
     }
 
     /**
